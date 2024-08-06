@@ -5,67 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
-
     <div class="items">
-        <img class="home-image" src="/home_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).png" alt="" height="45px" >
+        <img class="home-image" src="/home.png" alt="Home Image" height="45px">
         <a class="home" href="">Home</a>
-        <img class="user-image" src="/person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" height="50px">
+        <img class="user-image" src="/user.png" alt="User Image" height="50px">
         <a class="user" href="">User Photos</a>
-        <img class="document-image" src="/icone-fichier-document-gris-300x300.png" alt="" height="40px">
+        <img class="document-image" src="/document.png" alt="Document Image" height="50px">
         <a class="documentation" href="">Documentation</a>
-        <img class="changelog-image" src="/pencil-gray.svg.hi.png" alt="" height="40px">
+        <img class="changelog-image" src="/changeLog.png" alt="Changelog Image" height="50px">
         <a class="change-log" href="">Change Log</a>
-         <img class="graph-image" src="/line_graph_line_chart_statistics_analytics_increase_analysis_icon_187145.png" alt="" height="40px">
-         <a class="garph" href="">Stats & Graphs</a>
-         <img class="heart-image" src="/heart-icon-svg-29.jpg" alt="" height="37px">
+        <img class="graph-image" src="/statusGraph.png" alt="Graph Image" height="60px">
+        <a class="graph" href="">Stats & Graphs</a>
+        <img class="heart-image" src="/heart.png" alt="Heart Image" height="45px">
         <a class="donate" href="">Donate</a>
-        <img class="copy-image" src="/Copyright-Symbol-Transparent-Image.png" alt="" height="50px">
-        <a class="copy" href="">copyright Notice</a>
-        <img class="ps-image" src="/extension_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" height="40px">
+        <img class="copy-image" src="/copyRight.png" alt="Copy Image" height="46px">
+        <a class="copy" href="">Copyright Notice</a>
+        <img class="ps-image" src="/extension.png" alt="Photoshop Extension" height="40px">
         <a class="photo" href="">Photoshop Extension</a>
     </div>
+
     <div class="user-section">
         <p class="user-generator">RANDOM USER GENERATOR</p>
-        <p class="opensource">A free,<a class="link" href=""> open-source</a> API for 
+        <p class="opensource">A free, <a class="link" href="">open-source</a> API for 
         generating random user data. Like Lorem Ipsum, but for 
         people.</p>
-        <img class="twit-image" src="/twitter-logo-2-1.png" alt="" height="18px">
-        <p class="user-email">Follow us@randomapi</p>
-
+        <img class="twit-image" src="/twitter.png" alt="Twitter Logo" height="18px">
+        <p class="user-email">Follow us @randomapi</p>
+       
+             <div id="user-container">
+                <hr>
+                <img id="userImg" alt="">
+                <p id="userName"></p>
+                <h1 id="userDesc"></h1>
+               
+             </div> 
         
-                <div class="container">
-                    <hr>
-                        <div id="user-container" style="display: none;">
-                            <img id="user-img" alt="User Image">
-                            <p id="user-name"><span id="name"></span></p>
-                            <p id="user-email"><span id="email"></span></p>
-                            <p id="user-location"><span id="location"></span></p>
-                            <p id="user-birthday"><span id="birthday"></span></p>
-                            <p id="user-phone"><span id="phone"></span></p>
-                            <!-- <p id="user-password"><span id="password"></span></p> -->
-                        </div>
-                        
-                        <div id="icons-container">
-                            <div class="icon" id="icon-name"><img src="/person.png" height="24px"></div>
-                            <div class="icon" id="icon-email"><img src="/email.png" height="24px"></div>
-                            <div class="icon" id="icon-location"><img src="/location.png" height="24px"></div>
-                            <div class="icon" id="icon-birthday"><img src="/calendar.png" height="24px"></div>
-                            <div class="icon" id="icon-phone"><img src="/phone.png" height="24px"></div>
-                            <!-- <div class="icon" id="icon-password"><img src="/password.png" height="24px"></div> -->
-                        </div>
-                        <div id="hover-data" style="display: none;"></div>
-        <div class="conatiner-one">
-            <p class="content-page">SPONSORED</p>
-            <p class="randomApi">RandomAPI</p>
-            <p class="text-change">Want to create your own <span>customized</span> data generator for your application?
-            <br>check out our other service RandomAPI!
-            </p>
-            <button class="learn-more">Learn More</button>
+
+        <div id="icon-container">
+            <div class="icon"><span class="material-symbols-outlined">person</span></div>
+            <div class="icon"><span class="material-symbols-outlined">mail</span></div>
+            <div class="icon"><span class="material-symbols-outlined">map</span></div>
+            <div class="icon"><span class="material-symbols-outlined">calendar_month</span></div>
+            <div class="icon"><span class="material-symbols-outlined">call</span></div>
+            <div class="icon"><span class="material-symbols-outlined">lock</span></div>
         </div>
 
-</div>
+        <div id="hover-data" style="display: none;"></div>
+    </div>
+        <div class="container-one">
+            <p class="content-page">SPONSORED</p>
+            <p class="randomApi">RandomAPI</p>
+            <p class="text-change">Want to create your own customized data generator for your application? <br>Check out our other service RandomAPI!</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
 </body>
-<script src="/script.js"></script>
 </html>
