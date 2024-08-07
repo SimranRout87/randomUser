@@ -52,12 +52,14 @@ body {
 .home-image {
     position: absolute;
     margin-left: 19%;
-    background: transparent;
+    margin-top: 0.4%;
+
 }
 
 .user-image {
     position: absolute;
     margin-left: 26%;
+    margin-top: 0.4%;
 }
 
 .user {
@@ -68,7 +70,7 @@ body {
 .document-image {
     position: absolute;
     margin-left: 35%;
-    margin-top: 0.2%;
+    margin-top: 0.4%;
 }
 
 .documentation {
@@ -79,6 +81,7 @@ body {
 .changelog-image {
     position: absolute;
     margin-left: 44%;
+    margin-top: 0.4%;
 }
 
 .change-log {
@@ -89,6 +92,7 @@ body {
 .graph-image {
     position: absolute;
     margin-left: 53%;
+    margin-top: 0.4%;
 }
 
 .graph {
@@ -98,8 +102,8 @@ body {
 
 .heart-image {
     position: absolute;
-    margin-left: 60.5%;
-    margin-top: 0.4%;
+    margin-left: 60.8%;
+    margin-top: 0.6%;
 }
 
 .donate {
@@ -110,7 +114,7 @@ body {
 .copy-image {
     position: absolute;
     margin-left: 69%;
-    margin-top: 0.3%;
+    margin-top: 0.4%;
 }
 
 .copy {
